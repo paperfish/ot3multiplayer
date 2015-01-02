@@ -1,0 +1,1 @@
+blue,red,yellow,green,purple,orange,violet,pink,orangered

@@ -1,0 +1,93 @@
+.user{
+   display:none;
+   clear:both;
+   padding:10px;
+   max-width:300px;
+   min-width:260px;
+}
+div{
+    box-sizing:border-box;
+}
+/* user-image */
+.user-image{
+    width:45px;
+    cursor:pointer;
+}
+.uic{
+    float:left;
+    width:20%;
+}
+/*user-info*/
+.user-info{
+    float:left;
+    width:40%;
+}
+.state{
+    float:left;
+    width:10px;
+    height:10px;
+    margin:6px;
+}
+.online-state{
+    border-radius: 50%;
+}
+.playing-state-text{
+    float:left;
+}
+.user-playing{
+    clear:both;
+}
+/*mr*/
+.mr{
+    float:left;
+    width:40%;
+}
+.r-btns{
+    clear:both;
+    margin-left:3px;
+}
+.r-btn{
+    float:left;
+    border-radius:2px;
+    cursor: pointer;
+}
+.a-btn{
+    color:lightgreen;
+}
+.d-btn{
+    margin-left: 3px;
+    color:lightblue;
+}
+.r-circle{
+    background-color:white;
+    border-radius:50%;
+}
+.rr{
+    display:none;
+}
+.sr{
+    display:block;
+    color:white;
+    
+}
+.s-btn{
+    border:1px solid white;
+    padding:5px;
+    margin-top:7.5px;
+    border-radius:2px;
+}
+.sr .s-btn:active{
+    background-color:#666666;
+    
+}
+.rs{
+    display:none;
+}
+.st-btn{
+    border:1px solid #888888;
+    padding:5px;
+    margin-top:7.5px;
+    border-radius:2px;
+    color:#888888;
+    cursor:default;
+}

@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+.circle{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    float:left;
+    margin-top:4px;
+    margin-right:5px;
+}
+#play-header{
+    height:40px;
+    width: 100%;
+    background-color:#000000;
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+}
+.opp{
+    max-width:130px;
+    text-align: left;
+    margin-top:10px;
+}
+#opp1{
+    float:left;
+    margin-left:10px;
+}
+#opp2{
+    float:right; 
+    margin-right:10px;               
+}
+.name{
+    max-width:110px;
+    float:left;
+     white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+.points{
+    margin-left:5px;
+    float:left;
+}
+#current-no{
+    width:30px;
+
+    margin-top: 10px;
+    display: inline-block;
+}
+.number{
+    width:50px;
+    height:50px;
+
+    border-radius:50%;
+    background: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    color:#000000;
+    cursor:pointer;
+    box-shadow: 0 0 8px black;
+    -webkit-transition:background 0.5s;
+    transition:background 0.5s;
+}
+
+body{
+    background: #609cff;
+    color: #ffffff;
+}
+#game{
+   margin:auto;
+    position:relative;
+    font-weight:200;
+}

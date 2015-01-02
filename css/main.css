@@ -1,0 +1,19 @@
+@font-face {
+    font-family: segoe print;
+    src: url(../segoepr.ttf);
+} 
+body{
+    color:#222222;
+    background:#609cff;
+}
+#main{
+    position:absolute;
+    top:50px;
+    bottom:0;
+    width:99%;
+
+}
+body,input,button
+{
+    font-family:segoe print;
+}
